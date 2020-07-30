@@ -1,0 +1,73 @@
+.title{
+    text-align: center;
+    color:#ffea00;
+}
+
+body{
+    background-color:#290796;
+}
+
+.score{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.score-count-player{
+    text-align: center;
+    color:#ffea00;
+}
+
+.score-count-computer{
+    text-align: center;
+    color:#ffea00;
+}
+
+.player-score{
+    color:#ffea00;
+}
+
+.computer-score{
+    color:#ffea00;
+}
+
+.main{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.options{
+    border-radius: 50px;
+    transition: all .3s ease-in-out;
+}
+
+.options:hover{
+    transform: scale(1.1);
+}
+
+.text-winner{
+    color: #ffea00;
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+.test{
+    text-align: center;
+}
+
+.text-winner-anim{
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  90% {background-color: green;}
+  100% {background-color:#290796}
+}
